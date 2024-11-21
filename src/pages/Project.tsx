@@ -4,11 +4,22 @@ import pic from "../assets/pic.png";
 import cal from "../assets/calgame.png";
 import ecomm from "../assets/ecomm.png";
 import cube from "../assets/cube.png";
+import ifeoma from "../assets/ifeoma.png";
 const Project = () => {
   return (
     <div>
       <Projects
         number="1"
+        box="30vw"
+        tech="React, HTML, CSS, TypeScript, JavaScript"
+        link="https://ifeoma-uchefunah.netlify.app/"
+        image={ifeoma}
+        content="A portfolio website serves as a digital showcase of an individual’s skills, work, and achievements. It is often used by professionals like designers, developers, photographers, writers, and other creatives to present their expertise, attract clients, or secure job opportunities.
+
+"
+      />
+      <Projects
+        number="2"
         box="10vw"
         tech="React, HTML, CSS, TypeScript, JavaScript"
         link="https://cubessquares.netlify.app/"
@@ -16,7 +27,7 @@ const Project = () => {
         content="Cubessquares is a fast-paced arcade game where players control a character that must evade falling cubes for as long as possible. The longer the player survives, the more challenging the game becomes, with increasing cube speed and density. The game tests reflexes, strategy, and precision."
       />
       <Projects
-        number="2"
+        number="3"
         box="50vw"
         tech="React, HTML, CSS, TypeScript, JavaScript"
         link="https://commerca.netlify.app"
@@ -25,7 +36,7 @@ const Project = () => {
       />
       <Projects
         tech="HTML, CSS, JavaScript"
-        number="3"
+        number="4"
         box="20vw"
         link="https://nostalgic-gates-9b466c.netlify.app/thegame"
         image={cal}
@@ -33,7 +44,7 @@ const Project = () => {
       />
       <Projects
         tech="HTML, CSS, JavaScript"
-        number="4"
+        number="5"
         box="1vw"
         link="https://nostalgic-gates-9b466c.netlify.app/saes"
         image={ecomm}
@@ -41,7 +52,7 @@ const Project = () => {
       />
       <Projects
         tech="HTML, CSS, JavaScript"
-        number="5"
+        number="6"
         box="60vw"
         link="https://nostalgic-gates-9b466c.netlify.app/lo"
         image={pic}
