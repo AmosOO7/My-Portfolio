@@ -47,9 +47,6 @@ const Skill = () => {
           <img src={data}></img>
           <div>Data Backup and Recovery</div>
         </div>
-      </div>
-      <div className="whiteBox" style={{ marginLeft: "10vw" }}></div>
-      <div className="skillImage">
         <div className="item">
           <img src={ibm}></img>
           <div>IBM Cybersecurity Analyst</div>
