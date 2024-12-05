@@ -5,9 +5,18 @@ import cal from "../assets/calgame.png";
 import ecomm from "../assets/ecomm.png";
 import cube from "../assets/cube.png";
 import ifeoma from "../assets/ifeoma.png";
+import EcommApp from "../assets/10.jpeg";
 const Project = () => {
   return (
     <div>
+      <Projects
+        number="1"
+        box="60vw"
+        tech="React-Native, TypeScript, JavaScript, Clerk, Tailwind Css, React Navigation, icons expo, firebase, formik, picker, image picker, momentjs"
+        link="https://github.com/AmosOO7/ShoppingApp"
+        image={EcommApp}
+        content="E-Commerce App is a modern mobile shopping platform built with React Native and Expo. It features secure user authentication with Clerk, real-time data management via Firebase, and smooth navigation using React Navigation. The app's responsive design is powered by Tailwind CSS, with additional functionality for image handling (Image Picker), form management (Formik), and date formatting (Moment.js). Enhanced with Expo Icons and custom pickers, it offers a seamless and intuitive online shopping experience."
+      />
       <Projects
         number="1"
         box="30vw"
