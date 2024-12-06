@@ -18,7 +18,7 @@ const Project = () => {
         content="E-Commerce App is a modern mobile shopping platform built with React Native and Expo. It features secure user authentication with Clerk, real-time data management via Firebase, and smooth navigation using React Navigation. The app's responsive design is powered by Tailwind CSS, with additional functionality for image handling (Image Picker), form management (Formik), and date formatting (Moment.js). Enhanced with Expo Icons and custom pickers, it offers a seamless and intuitive online shopping experience."
       />
       <Projects
-        number="1"
+        number="2"
         box="30vw"
         tech="React, HTML, CSS, TypeScript, JavaScript"
         link="https://ifeoma-uchefunah.netlify.app/"
@@ -28,7 +28,7 @@ const Project = () => {
 "
       />
       <Projects
-        number="2"
+        number="3"
         box="10vw"
         tech="React, HTML, CSS, TypeScript, JavaScript"
         link="https://cubessquares.netlify.app/"
@@ -36,7 +36,7 @@ const Project = () => {
         content="Cubessquares is a fast-paced arcade game where players control a character that must evade falling cubes for as long as possible. The longer the player survives, the more challenging the game becomes, with increasing cube speed and density. The game tests reflexes, strategy, and precision."
       />
       <Projects
-        number="3"
+        number="4"
         box="50vw"
         tech="React, HTML, CSS, TypeScript, JavaScript"
         link="https://commerca.netlify.app"
@@ -45,7 +45,7 @@ const Project = () => {
       />
       <Projects
         tech="HTML, CSS, JavaScript"
-        number="4"
+        number="5"
         box="20vw"
         link="https://nostalgic-gates-9b466c.netlify.app/thegame"
         image={cal}
@@ -53,7 +53,7 @@ const Project = () => {
       />
       <Projects
         tech="HTML, CSS, JavaScript"
-        number="5"
+        number="6"
         box="1vw"
         link="https://nostalgic-gates-9b466c.netlify.app/saes"
         image={ecomm}
@@ -61,7 +61,7 @@ const Project = () => {
       />
       <Projects
         tech="HTML, CSS, JavaScript"
-        number="6"
+        number="7"
         box="60vw"
         link="https://nostalgic-gates-9b466c.netlify.app/lo"
         image={pic}
